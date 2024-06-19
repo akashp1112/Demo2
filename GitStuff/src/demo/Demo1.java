@@ -15,6 +15,10 @@ public class Demo1 {
 	public static void main(String[] args) {
 		
 		WebDriver driver=new ChromeDriver();
+		//git practice code
+		System.out.println("New addition for git practice");
+		
+		
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
 		System.out.println(driver.findElements(By.tagName("a")).size());
